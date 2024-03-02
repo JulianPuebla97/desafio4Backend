@@ -1,0 +1,152 @@
+[
+  {
+    "id": 1,
+    "title": "Camiseta deportiva Nike",
+    "description": "Camiseta deportiva Nike para hombre.",
+    "price": 2500,
+    "img": "./media/products/camiseta-nike.jpg",
+    "code": "P001",
+    "stock": 20,
+    "category": "Ropa deportiva",
+    "thumbnails": [
+      "./media/products/camiseta-nike-thumb1.jpg",
+      "./media/products/camiseta-nike-thumb2.jpg"
+    ]
+  },
+  {
+    "id": 2,
+    "title": "Pantalón deportivo Adidas",
+    "description": "Pantalón deportivo Adidas para mujer.",
+    "price": 3500,
+    "img": "./media/products/pantalon-adidas.jpg",
+    "code": "P002",
+    "stock": 15,
+    "category": "Ropa deportiva",
+    "thumbnails": [
+      "./media/products/pantalon-adidas-thumb1.jpg",
+      "./media/products/pantalon-adidas-thumb2.jpg"
+    ]
+  },
+  {
+    "id": 3,
+    "title": "Zapatillas Puma Ignite",
+    "description": "Zapatillas deportivas Puma Ignite para correr.",
+    "price": 4500,
+    "img": "./media/products/zapatillas-puma.jpg",
+    "code": "P003",
+    "stock": 10,
+    "category": "Ropa deportiva",
+    "thumbnails": [
+      "./media/products/zapatillas-puma-thumb1.jpg",
+      "./media/products/zapatillas-puma-thumb2.jpg"
+    ]
+  },
+  {
+    "id": 4,
+    "title": "Chaqueta deportiva Under Armour",
+    "description": "Chaqueta deportiva Under Armour para entrenamiento.",
+    "price": 5500,
+    "img": "./media/products/chaqueta-under-armour.jpg",
+    "code": "P004",
+    "stock": 18,
+    "category": "Ropa deportiva",
+    "thumbnails": [
+      "./media/products/chaqueta-under-armour-thumb1.jpg",
+      "./media/products/chaqueta-under-armour-thumb2.jpg"
+    ]
+  },
+  {
+    "id": 5,
+    "title": "Leggings deportivos Reebok",
+    "description": "Leggings deportivos Reebok para mujer.",
+    "price": 2800,
+    "img": "./media/products/leggins-reebok.jpg",
+    "code": "P005",
+    "stock": 22,
+    "category": "Ropa deportiva",
+    "thumbnails": [
+      "./media/products/leggins-reebok-thumb1.jpg",
+      "./media/products/leggins-reebok-thumb2.jpg"
+    ]
+  },
+  {
+    "id": 6,
+    "title": "Shorts deportivos Nike",
+    "description": "Shorts deportivos Nike para hombre.",
+    "price": 1800,
+    "img": "./media/products/shorts-nike.jpg",
+    "code": "P006",
+    "stock": 30,
+    "category": "Ropa deportiva",
+    "thumbnails": [
+      "./media/products/shorts-nike-thumb1.jpg",
+      "./media/products/shorts-nike-thumb2.jpg"
+    ]
+  },
+  {
+    "id": 7,
+    "title": "Top deportivo Adidas",
+    "description": "Top deportivo Adidas para mujer.",
+    "price": 2000,
+    "img": "./media/products/top-adidas.jpg",
+    "code": "P007",
+    "stock": 25,
+    "category": "Ropa deportiva",
+    "thumbnails": [
+      "./media/products/top-adidas-thumb1.jpg",
+      "./media/products/top-adidas-thumb2.jpg"
+    ]
+  },
+  {
+    "id": 8,
+    "title": "Calcetines deportivos Asics",
+    "description": "Calcetines deportivos Asics para running.",
+    "price": 1200,
+    "img": "./media/products/calcetines-asics.jpg",
+    "code": "P008",
+    "stock": 40,
+    "category": "Ropa deportiva",
+    "thumbnails": [
+      "./media/products/calcetines-asics-thumb1.jpg",
+      "./media/products/calcetines-asics-thumb2.jpg"
+    ]
+  },
+  {
+    "id": 9,
+    "title": "Sudadera deportiva Puma",
+    "description": "Sudadera deportiva Puma para hombre.",
+    "price": 3200,
+    "img": "./media/products/sudadera-puma.jpg",
+    "code": "P009",
+    "stock": 12,
+    "category": "Ropa deportiva",
+    "thumbnails": [
+      "./media/products/sudadera-puma-thumb1.jpg",
+      "./media/products/sudadera-puma-thumb2.jpg"
+    ]
+  },
+  {
+    "id": 10,
+    "title": "Gorra deportiva Nike",
+    "description": "Gorra deportiva Nike para hombre.",
+    "price": 1500,
+    "img": "./media/products/gorra-nike.jpg",
+    "code": "P010",
+    "stock": 35,
+    "category": "Ropa deportiva",
+    "thumbnails": [
+      "./media/products/gorra-nike-thumb1.jpg",
+      "./media/products/gorra-nike-thumb2.jpg"
+    ]
+  },
+  {
+    "title": "Camiseta deportiva",
+    "description": "Camiseta de algodón para entrenamiento.",
+    "price": 30,
+    "code": "P020",
+    "stock": 50,
+    "category": "Ropa deportiva",
+    "status": true,
+    "id": 11
+  }
+]

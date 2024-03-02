@@ -1,0 +1,113 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: Arial, sans-serif; /* Tipo de fuente predeterminado */
+    background-color: #f8f8f8; /* Color de fondo */
+}
+
+.navBar {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    list-style: none;
+    margin: 0;
+    padding: 20px 0; /* Espaciado interno */
+    background-color: #333; /* Color de fondo */
+    border-bottom: 2px solid #ccc; /* Borde inferior */
+}
+
+.navBar li {
+    margin-right: 20px; /* Espaciado entre elementos */
+}
+
+.navBar li:last-child {
+    margin-right: 0; /* Eliminar el margen derecho del último elemento */
+}
+
+.navBar li a {
+    text-decoration: none;
+    font-size: 1.2rem; /* Tamaño de fuente */
+    color: #fff; /* Color de texto */
+    padding: 10px; /* Espaciado interno */
+    transition: color 0.3s ease; /* Transición suave del color de texto */
+}
+
+.navBar li a:hover {
+    color: #ffcc00; /* Cambiar color de texto al pasar el ratón */
+}
+
+h1 {
+    text-align: center;
+    font-size: 3rem; /* Tamaño de fuente */
+    margin: 40px 0; /* Espaciado superior e inferior */
+    color: #333; /* Color de texto */
+}
+
+.card {
+    box-shadow: 0 0 1rem rgba(0, 0, 0, 0.1); /* Sombra suave */
+    border-radius: 5px; /* Bordes redondeados */
+    background-color: #fff; /* Color de fondo */
+    padding: 20px; /* Espaciado interno */
+    margin: 20px; /* Margen exterior */
+}
+
+.products {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    gap: 40px; /* Espaciado entre productos */
+    padding: 20px; /* Espaciado interno */
+}
+
+.images img {
+    max-width: 100%; /* Imágenes responsivas */
+    height: auto;
+}
+
+.forms {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 40px; /* Espaciado entre formularios */
+    padding: 20px; /* Espaciado interno */
+}
+
+.form {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    width: 300px; /* Ancho del formulario */
+    gap: 10px; /* Espaciado entre elementos */
+}
+
+.form div {
+    width: 100%;
+    display: flex;
+    gap: 10px; /* Espaciado entre elementos */
+}
+
+.form div input {
+    width: 100%;
+    padding: 10px; /* Espaciado interno */
+    border: 1px solid #ccc; /* Borde del campo de entrada */
+    border-radius: 5px; /* Bordes redondeados */
+}
+
+.form div input[type="submit"] {
+    background-color: #333; /* Color de fondo del botón */
+    color: #fff; /* Color de texto del botón */
+    border: none; /* Eliminar borde del botón */
+    cursor: pointer; /* Cursor de puntero al pasar el ratón */
+}
+
+.form div input[type="submit"]:hover {
+    background-color: #555; /* Cambiar color de fondo al pasar el ratón */
+}
+
+.error-message {
+    color: red; /* Color de texto para mensajes de error */
+}
