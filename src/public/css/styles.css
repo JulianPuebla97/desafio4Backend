@@ -5,8 +5,8 @@
 }
 
 body {
-    font-family: Arial, sans-serif; /* Tipo de fuente predeterminado */
-    background-color: #f8f8f8; /* Color de fondo */
+    font-family: Arial, sans-serif;
+    background-color: #f4f4f4;
 }
 
 .navBar {
@@ -15,99 +15,172 @@ body {
     align-items: center;
     list-style: none;
     margin: 0;
-    padding: 20px 0; /* Espaciado interno */
-    background-color: #333; /* Color de fondo */
-    border-bottom: 2px solid #ccc; /* Borde inferior */
+    padding: 20px 0;
+    background-color: #333;
+    border-bottom: 2px solid #ccc;
 }
 
 .navBar li {
-    margin-right: 20px; /* Espaciado entre elementos */
+    margin-right: 20px;
 }
 
 .navBar li:last-child {
-    margin-right: 0; /* Eliminar el margen derecho del último elemento */
+    margin-right: 0;
 }
 
 .navBar li a {
     text-decoration: none;
-    font-size: 1.2rem; /* Tamaño de fuente */
-    color: #fff; /* Color de texto */
-    padding: 10px; /* Espaciado interno */
-    transition: color 0.3s ease; /* Transición suave del color de texto */
+    font-size: 1.2rem;
+    color: #fff;
+    padding: 10px;
+    transition: color 0.3s ease;
 }
 
 .navBar li a:hover {
-    color: #ffcc00; /* Cambiar color de texto al pasar el ratón */
+    color: #ffcc00;
 }
 
 h1 {
     text-align: center;
-    font-size: 3rem; /* Tamaño de fuente */
-    margin: 40px 0; /* Espaciado superior e inferior */
-    color: #333; /* Color de texto */
+    font-size: 3rem;
+    margin: 40px 0;
+    color: #333;
 }
 
 .card {
-    box-shadow: 0 0 1rem rgba(0, 0, 0, 0.1); /* Sombra suave */
-    border-radius: 5px; /* Bordes redondeados */
-    background-color: #fff; /* Color de fondo */
-    padding: 20px; /* Espaciado interno */
-    margin: 20px; /* Margen exterior */
+    box-shadow: 0 0 1rem rgba(44, 44, 44, 0.3);
+    border-radius: 5px;
+    background-color: #fff;
+    padding: 20px;
+    margin: 20px;
+    transition: transform 0.3s ease-in-out, box-shadow 0.3s ease-in-out;
+}
+
+.card:hover {
+    transform: translateY(-5px);
+    box-shadow: 0 0 1.5rem rgba(44, 44, 44, 0.5);
+}
+
+.card img {
+    max-width: 100%;
+    height: auto;
+    border-radius: 5px;
+}
+
+.card h3 {
+    font-size: 1.5rem;
+    margin-bottom: 10px;
+}
+
+.card p {
+    font-size: 1rem;
+    color: #666;
+}
+
+.card button {
+    display: block;
+    width: 100%;
+    padding: 10px;
+    margin-top: 15px;
+    background-color: #333;
+    color: #fff;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+}
+
+.card button:hover {
+    background-color: #555;
 }
 
 .products {
     display: flex;
     flex-wrap: wrap;
     justify-content: center;
-    gap: 40px; /* Espaciado entre productos */
-    padding: 20px; /* Espaciado interno */
-}
-
-.images img {
-    max-width: 100%; /* Imágenes responsivas */
-    height: auto;
+    gap: 40px;
+    padding: 20px;
 }
 
 .forms {
     display: flex;
     justify-content: center;
     align-items: center;
-    gap: 40px; /* Espaciado entre formularios */
-    padding: 20px; /* Espaciado interno */
+    gap: 40px;
+    padding: 20px;
 }
 
 .form {
     display: flex;
     flex-direction: column;
     align-items: center;
-    width: 300px; /* Ancho del formulario */
-    gap: 10px; /* Espaciado entre elementos */
+    width: 300px;
+    gap: 10px;
 }
 
 .form div {
     width: 100%;
     display: flex;
-    gap: 10px; /* Espaciado entre elementos */
+    gap: 10px;
 }
 
 .form div input {
     width: 100%;
-    padding: 10px; /* Espaciado interno */
-    border: 1px solid #ccc; /* Borde del campo de entrada */
-    border-radius: 5px; /* Bordes redondeados */
+    padding: 10px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
 }
 
 .form div input[type="submit"] {
-    background-color: #333; /* Color de fondo del botón */
-    color: #fff; /* Color de texto del botón */
-    border: none; /* Eliminar borde del botón */
-    cursor: pointer; /* Cursor de puntero al pasar el ratón */
+    background-color: #333;
+    color: #fff;
+    border: none;
+    cursor: pointer;
 }
 
 .form div input[type="submit"]:hover {
-    background-color: #555; /* Cambiar color de fondo al pasar el ratón */
+    background-color: #555;
 }
 
 .error-message {
-    color: red; /* Color de texto para mensajes de error */
+    color: red;
+    font-weight: bold;
+}
+
+.messages {
+    display: flex;
+    flex-direction: column;
+    border: 1px solid #ccc;
+    background-color: #fff;
+    width: 80%;
+    height: 50vh;
+    margin: auto;
+    padding: 1rem;
+    overflow-y: auto;
+}
+
+.message {
+    padding: 1rem;
+    margin-bottom: 0.5rem;
+    border-radius: 5px;
+    background-color: #f8f8f8;
+    border: 1px solid #ccc;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+    transition: transform 0.3s ease;
+}
+
+.message:hover {
+    transform: translateY(-3px);
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+}
+
+.inputMessage {
+    text-align: right;
+    width: 80%;
+    margin: 2rem auto;
+}
+
+.inputMessage input {
+    width: 100%;
+    padding: 0.5rem;
 }

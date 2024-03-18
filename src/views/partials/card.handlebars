@@ -11,4 +11,10 @@
     <p>Category: {{category}} </p>
     <p>Price: ${{price}}</p>
     <p>Description: {{description}} </p>
+    <!-- Agregar botón "Agregar al carrito" -->
+    <form action="/api/carts/add" method="POST">
+        <input type="hidden" name="productId" value="{{_id}}">
+        <button type="submit">Agregar al carrito</button>
+    </form>
+    
 </div>
